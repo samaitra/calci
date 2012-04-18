@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1126948F153F3F3E002A9414 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1126948E153F3F3E002A9414 /* UIKit.framework */; };
+		11269491153F3F3E002A9414 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11269490153F3F3E002A9414 /* Foundation.framework */; };
+		11269493153F3F3E002A9414 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11269492153F3F3E002A9414 /* CoreGraphics.framework */; };
+		11269499153F3F3E002A9414 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 11269497153F3F3E002A9414 /* InfoPlist.strings */; };
+		1126949B153F3F3E002A9414 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1126949A153F3F3E002A9414 /* main.m */; };
+		1126949F153F3F3E002A9414 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1126949E153F3F3E002A9414 /* AppDelegate.m */; };
+		112694A2153F3F3E002A9414 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112694A0153F3F3E002A9414 /* MainStoryboard_iPhone.storyboard */; };
+		112694A5153F3F3E002A9414 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112694A3153F3F3E002A9414 /* MainStoryboard_iPad.storyboard */; };
+		112694A8153F3F3E002A9414 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 112694A7153F3F3E002A9414 /* ViewController.m */; };
+		112694B0153F3F3E002A9414 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 112694AF153F3F3E002A9414 /* SenTestingKit.framework */; };
+		112694B1153F3F3E002A9414 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1126948E153F3F3E002A9414 /* UIKit.framework */; };
+		112694B2153F3F3E002A9414 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11269490153F3F3E002A9414 /* Foundation.framework */; };
+		112694BA153F3F3E002A9414 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 112694B8153F3F3E002A9414 /* InfoPlist.strings */; };
+		112694BD153F3F3E002A9414 /* calciTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 112694BC153F3F3E002A9414 /* calciTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		112694B3153F3F3E002A9414 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11269481153F3F3E002A9414 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11269489153F3F3E002A9414;
+			remoteInfo = calci;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1126948A153F3F3E002A9414 /* calci.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calci.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1126948E153F3F3E002A9414 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		11269490153F3F3E002A9414 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		11269492153F3F3E002A9414 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		11269496153F3F3E002A9414 /* calci-Info.plist */ = {isa = PBXFileReference; path = "calci-Info.plist"; sourceTree = "<group>"; };
+		11269498153F3F3E002A9414 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1126949A153F3F3E002A9414 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1126949C153F3F3E002A9414 /* calci-Prefix.pch */ = {isa = PBXFileReference; path = "calci-Prefix.pch"; sourceTree = "<group>"; };
+		1126949D153F3F3E002A9414 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		1126949E153F3F3E002A9414 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		112694A1153F3F3E002A9414 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		112694A4153F3F3E002A9414 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		112694A6153F3F3E002A9414 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		112694A7153F3F3E002A9414 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		112694AE153F3F3E002A9414 /* calciTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calciTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		112694AF153F3F3E002A9414 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		112694B7153F3F3E002A9414 /* calciTests-Info.plist */ = {isa = PBXFileReference; path = "calciTests-Info.plist"; sourceTree = "<group>"; };
+		112694B9153F3F3E002A9414 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		112694BB153F3F3E002A9414 /* calciTests.h */ = {isa = PBXFileReference; path = calciTests.h; sourceTree = "<group>"; };
+		112694BC153F3F3E002A9414 /* calciTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = calciTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11269487153F3F3E002A9414 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1126948F153F3F3E002A9414 /* UIKit.framework in Frameworks */,
+				11269491153F3F3E002A9414 /* Foundation.framework in Frameworks */,
+				11269493153F3F3E002A9414 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		112694AA153F3F3E002A9414 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				112694B0153F3F3E002A9414 /* SenTestingKit.framework in Frameworks */,
+				112694B1153F3F3E002A9414 /* UIKit.framework in Frameworks */,
+				112694B2153F3F3E002A9414 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1126947F153F3F3E002A9414 = {
+			isa = PBXGroup;
+			children = (
+				11269494153F3F3E002A9414 /* calci */,
+				112694B5153F3F3E002A9414 /* calciTests */,
+				1126948D153F3F3E002A9414 /* Frameworks */,
+				1126948B153F3F3E002A9414 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1126948B153F3F3E002A9414 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1126948A153F3F3E002A9414 /* calci.app */,
+				112694AE153F3F3E002A9414 /* calciTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1126948D153F3F3E002A9414 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1126948E153F3F3E002A9414 /* UIKit.framework */,
+				11269490153F3F3E002A9414 /* Foundation.framework */,
+				11269492153F3F3E002A9414 /* CoreGraphics.framework */,
+				112694AF153F3F3E002A9414 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		11269494153F3F3E002A9414 /* calci */ = {
+			isa = PBXGroup;
+			children = (
+				1126949D153F3F3E002A9414 /* AppDelegate.h */,
+				1126949E153F3F3E002A9414 /* AppDelegate.m */,
+				112694A0153F3F3E002A9414 /* MainStoryboard_iPhone.storyboard */,
+				112694A3153F3F3E002A9414 /* MainStoryboard_iPad.storyboard */,
+				112694A6153F3F3E002A9414 /* ViewController.h */,
+				112694A7153F3F3E002A9414 /* ViewController.m */,
+				11269495153F3F3E002A9414 /* Supporting Files */,
+			);
+			path = calci;
+			sourceTree = "<group>";
+		};
+		11269495153F3F3E002A9414 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11269496153F3F3E002A9414 /* calci-Info.plist */,
+				11269497153F3F3E002A9414 /* InfoPlist.strings */,
+				1126949A153F3F3E002A9414 /* main.m */,
+				1126949C153F3F3E002A9414 /* calci-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		112694B5153F3F3E002A9414 /* calciTests */ = {
+			isa = PBXGroup;
+			children = (
+				112694BB153F3F3E002A9414 /* calciTests.h */,
+				112694BC153F3F3E002A9414 /* calciTests.m */,
+				112694B6153F3F3E002A9414 /* Supporting Files */,
+			);
+			path = calciTests;
+			sourceTree = "<group>";
+		};
+		112694B6153F3F3E002A9414 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				112694B7153F3F3E002A9414 /* calciTests-Info.plist */,
+				112694B8153F3F3E002A9414 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11269489153F3F3E002A9414 /* calci */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 112694C0153F3F3E002A9414 /* Build configuration list for PBXNativeTarget "calci" */;
+			buildPhases = (
+				11269486153F3F3E002A9414 /* Sources */,
+				11269487153F3F3E002A9414 /* Frameworks */,
+				11269488153F3F3E002A9414 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = calci;
+			productName = calci;
+			productReference = 1126948A153F3F3E002A9414 /* calci.app */;
+			productType = "com.apple.product-type.application";
+		};
+		112694AD153F3F3E002A9414 /* calciTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 112694C3153F3F3E002A9414 /* Build configuration list for PBXNativeTarget "calciTests" */;
+			buildPhases = (
+				112694A9153F3F3E002A9414 /* Sources */,
+				112694AA153F3F3E002A9414 /* Frameworks */,
+				112694AB153F3F3E002A9414 /* Resources */,
+				112694AC153F3F3E002A9414 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				112694B4153F3F3E002A9414 /* PBXTargetDependency */,
+			);
+			name = calciTests;
+			productName = calciTests;
+			productReference = 112694AE153F3F3E002A9414 /* calciTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11269481153F3F3E002A9414 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 11269484153F3F3E002A9414 /* Build configuration list for PBXProject "calci" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1126947F153F3F3E002A9414;
+			productRefGroup = 1126948B153F3F3E002A9414 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11269489153F3F3E002A9414 /* calci */,
+				112694AD153F3F3E002A9414 /* calciTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11269488153F3F3E002A9414 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11269499153F3F3E002A9414 /* InfoPlist.strings in Resources */,
+				112694A2153F3F3E002A9414 /* MainStoryboard_iPhone.storyboard in Resources */,
+				112694A5153F3F3E002A9414 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		112694AB153F3F3E002A9414 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				112694BA153F3F3E002A9414 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		112694AC153F3F3E002A9414 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11269486153F3F3E002A9414 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1126949B153F3F3E002A9414 /* main.m in Sources */,
+				1126949F153F3F3E002A9414 /* AppDelegate.m in Sources */,
+				112694A8153F3F3E002A9414 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		112694A9153F3F3E002A9414 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				112694BD153F3F3E002A9414 /* calciTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		112694B4153F3F3E002A9414 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11269489153F3F3E002A9414 /* calci */;
+			targetProxy = 112694B3153F3F3E002A9414 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11269497153F3F3E002A9414 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11269498153F3F3E002A9414 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		112694A0153F3F3E002A9414 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				112694A1153F3F3E002A9414 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		112694A3153F3F3E002A9414 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				112694A4153F3F3E002A9414 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		112694B8153F3F3E002A9414 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				112694B9153F3F3E002A9414 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		112694BE153F3F3E002A9414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		112694BF153F3F3E002A9414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		112694C1153F3F3E002A9414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "calci/calci-Prefix.pch";
+				INFOPLIST_FILE = "calci/calci-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		112694C2153F3F3E002A9414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "calci/calci-Prefix.pch";
+				INFOPLIST_FILE = "calci/calci-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		112694C4153F3F3E002A9414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/calci.app/calci";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "calci/calci-Prefix.pch";
+				INFOPLIST_FILE = "calciTests/calciTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		112694C5153F3F3E002A9414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/calci.app/calci";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "calci/calci-Prefix.pch";
+				INFOPLIST_FILE = "calciTests/calciTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11269484153F3F3E002A9414 /* Build configuration list for PBXProject "calci" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				112694BE153F3F3E002A9414 /* Debug */,
+				112694BF153F3F3E002A9414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		112694C0153F3F3E002A9414 /* Build configuration list for PBXNativeTarget "calci" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				112694C1153F3F3E002A9414 /* Debug */,
+				112694C2153F3F3E002A9414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		112694C3153F3F3E002A9414 /* Build configuration list for PBXNativeTarget "calciTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				112694C4153F3F3E002A9414 /* Debug */,
+				112694C5153F3F3E002A9414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11269481153F3F3E002A9414 /* Project object */;
+}
