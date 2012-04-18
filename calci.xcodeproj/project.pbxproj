@@ -38,21 +38,21 @@
 		1126948E153F3F3E002A9414 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		11269490153F3F3E002A9414 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		11269492153F3F3E002A9414 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		11269496153F3F3E002A9414 /* calci-Info.plist */ = {isa = PBXFileReference; path = "calci-Info.plist"; sourceTree = "<group>"; };
+		11269496153F3F3E002A9414 /* calci-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "calci-Info.plist"; sourceTree = "<group>"; };
 		11269498153F3F3E002A9414 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1126949A153F3F3E002A9414 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1126949C153F3F3E002A9414 /* calci-Prefix.pch */ = {isa = PBXFileReference; path = "calci-Prefix.pch"; sourceTree = "<group>"; };
-		1126949D153F3F3E002A9414 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		1126949C153F3F3E002A9414 /* calci-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "calci-Prefix.pch"; sourceTree = "<group>"; };
+		1126949D153F3F3E002A9414 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1126949E153F3F3E002A9414 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		112694A1153F3F3E002A9414 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		112694A4153F3F3E002A9414 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		112694A6153F3F3E002A9414 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		112694A6153F3F3E002A9414 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		112694A7153F3F3E002A9414 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		112694AE153F3F3E002A9414 /* calciTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calciTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		112694AF153F3F3E002A9414 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		112694B7153F3F3E002A9414 /* calciTests-Info.plist */ = {isa = PBXFileReference; path = "calciTests-Info.plist"; sourceTree = "<group>"; };
+		112694B7153F3F3E002A9414 /* calciTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "calciTests-Info.plist"; sourceTree = "<group>"; };
 		112694B9153F3F3E002A9414 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		112694BB153F3F3E002A9414 /* calciTests.h */ = {isa = PBXFileReference; path = calciTests.h; sourceTree = "<group>"; };
+		112694BB153F3F3E002A9414 /* calciTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = calciTests.h; sourceTree = "<group>"; };
 		112694BC153F3F3E002A9414 /* calciTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = calciTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
