@@ -10,6 +10,29 @@
 
 @implementation ViewController
 
+@synthesize button1 = _button1;
+@synthesize button2 = _button2;
+@synthesize button3 = _button3;
+@synthesize button4 = _button4;
+@synthesize button5 = _button5;
+@synthesize button6 = _button6;
+@synthesize button7 = _button7;
+@synthesize button8 = _button8;
+@synthesize button9 = _button9;
+@synthesize button0 = _button0;
+@synthesize buttonAdd = _buttonAdd;
+@synthesize buttonSub = _buttonSub;
+@synthesize buttonEql = _buttonEql;
+@synthesize uiText = _uiText;
+@synthesize val = _val;
+
+- (IBAction)setVal:(id)sender{
+    
+    NSString *val = [[NSString alloc] initWithFormat:@"1", "1"];
+    self.uiText.text = val;
+    
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
