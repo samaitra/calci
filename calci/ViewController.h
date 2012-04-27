@@ -11,7 +11,7 @@
 @interface ViewController : UIViewController
 
 @property (nonatomic,weak)IBOutlet UIButton *button1;
-@property (nonatomic,strong)IBOutlet UIButton *button2;
+@property (nonatomic,weak)IBOutlet UIButton *button2;
 @property (nonatomic,strong)IBOutlet UIButton *button3;
 @property (nonatomic,strong)IBOutlet UIButton *button4;
 @property (nonatomic,strong)IBOutlet UIButton *button5;
@@ -29,9 +29,13 @@
 //@property (nonatomic,strong)IBOutlet UIButton *buttonDot;
 //@property (nonatomic,strong)IBOutlet UIButton *buttonClear;
 @property (copy, nonatomic) NSString *val;
+@property (nonatomic,retain) NSString *firstval;
 
 
 - (IBAction)setVal:(id)sender;
+- (IBAction)clear:(id)sender;
+- (IBAction)add:(id)sender;
+- (IBAction)eql:(id)sender;
 
 
 

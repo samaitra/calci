@@ -25,12 +25,52 @@
 @synthesize buttonEql = _buttonEql;
 @synthesize uiText = _uiText;
 @synthesize val = _val;
+@synthesize firstval = _firstval;
 
 - (IBAction)setVal:(id)sender{
     
-    NSString *val = [[NSString alloc] initWithFormat:@"1", "1"];
-    self.uiText.text = val;
+    //NSString *val = [[NSString alloc] initWithFormat:@"1", "1"];
+    //self.uiText.text = val;
+    UIButton *pressedButton = (UIButton *)sender;
+    NSLog(@"tag = %d%",pressedButton.tag);
+    NSString *val = self.uiText.text;
+    NSString *buttonval = [NSString stringWithFormat:@"%d",pressedButton.tag];
+    NSString *uival = [NSString stringWithFormat:@"%@%@", val, buttonval];
+    self.uiText.text = uival;
     
+    
+}
+
+-(IBAction)clear:(id)sender{
+
+    self.uiText.text = [NSString stringWithFormat:@"%@",@""];    
+
+}
+
+-(IBAction)add:(id)sender{
+
+    _firstval = self.uiText.text;
+    NSLog(@"_firstval = %@",_firstval);
+    NSString *action = [NSString stringWithFormat:@"%@",@"add"];
+    self.uiText.text = [NSString stringWithFormat:@"%@",@""];    
+
+
+}
+
+-(IBAction)eql:(id)sender{
+
+    NSString *secondval = self.uiText.text;
+    
+    NSLog(@"_firstval = %@",_firstval);
+    NSLog(@"secondval = %@",secondval);
+    
+    int result = [_firstval intValue]+[secondval intValue];
+   
+    NSLog(@"result = %d%",result);
+    
+    self.uiText.text = [NSString stringWithFormat:@"%d",result];
+    
+
 }
 
 - (void)didReceiveMemoryWarning
