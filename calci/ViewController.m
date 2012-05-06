@@ -10,6 +10,7 @@
 
 @implementation ViewController
 
+
 @synthesize button1 = _button1;
 @synthesize button2 = _button2;
 @synthesize button3 = _button3;
@@ -23,16 +24,20 @@
 @synthesize buttonAdd = _buttonAdd;
 @synthesize buttonSub = _buttonSub;
 @synthesize buttonEql = _buttonEql;
+@synthesize buttonMul = _buttonMul;
+@synthesize buttonDiv = _buttonDiv;
+@synthesize buttonDot = _buttonDot;
+@synthesize buttonClear = _buttonClear;
 @synthesize uiText = _uiText;
-@synthesize val = _val;
 @synthesize firstval = _firstval;
+@synthesize action = _action;
 
 - (IBAction)setVal:(id)sender{
     
     //NSString *val = [[NSString alloc] initWithFormat:@"1", "1"];
     //self.uiText.text = val;
     UIButton *pressedButton = (UIButton *)sender;
-    NSLog(@"tag = %d%",pressedButton.tag);
+    NSLog(@"tag = %d",pressedButton.tag);
     NSString *val = self.uiText.text;
     NSString *buttonval = [NSString stringWithFormat:@"%d",pressedButton.tag];
     NSString *uival = [NSString stringWithFormat:@"%@%@", val, buttonval];
@@ -51,22 +56,65 @@
 
     _firstval = self.uiText.text;
     NSLog(@"_firstval = %@",_firstval);
-    NSString *action = [NSString stringWithFormat:@"%@",@"add"];
+    _action = [NSString stringWithFormat:@"%@",@"add"];
     self.uiText.text = [NSString stringWithFormat:@"%@",@""];    
+}
+
+-(IBAction)sub:(id)sender{
+    _firstval = self.uiText.text;
+    NSLog(@"_firstval = %@",_firstval);
+    _action = [NSString stringWithFormat:@"%@",@"sub"];
+    self.uiText.text = [NSString stringWithFormat:@"%@",@""];   
 
 
 }
 
--(IBAction)eql:(id)sender{
+-(IBAction)mul:(id)sender{
+    _firstval = self.uiText.text;
+    NSLog(@"_firstval = %@",_firstval);
+    _action = [NSString stringWithFormat:@"%@",@"mul"];
+    self.uiText.text = [NSString stringWithFormat:@"%@",@""];   
+    
+    
+}
 
+-(IBAction)div:(id)sender{
+    _firstval = self.uiText.text;
+    NSLog(@"_firstval = %@",_firstval);
+    _action = [NSString stringWithFormat:@"%@",@"div"];
+    self.uiText.text = [NSString stringWithFormat:@"%@",@""];   
+    
+    
+}
+
+-(IBAction)eql:(id)sender{
+    int result;
     NSString *secondval = self.uiText.text;
     
     NSLog(@"_firstval = %@",_firstval);
     NSLog(@"secondval = %@",secondval);
     
-    int result = [_firstval intValue]+[secondval intValue];
-   
-    NSLog(@"result = %d%",result);
+    if ([_action isEqualToString:@"add"]){
+        NSLog(@"action = %@",_action);    
+        result = [_firstval intValue]+[secondval intValue];
+    }
+    
+    if ([_action isEqualToString:@"sub"]){
+        NSLog(@"action = %@",_action);    
+        result = [_firstval intValue]-[secondval intValue];
+    }
+    
+    if ([_action isEqualToString:@"mul"]){
+        NSLog(@"action = %@",_action);    
+        result = [_firstval intValue]*[secondval intValue];
+    }
+    
+    if ([_action isEqualToString:@"div"]){
+        NSLog(@"action = %@",_action);    
+        result = [_firstval intValue]/[secondval intValue];
+    }
+    
+    NSLog(@"result = %d",result);
     
     self.uiText.text = [NSString stringWithFormat:@"%d",result];
     
@@ -89,6 +137,7 @@
 
 - (void)viewDidUnload
 {
+
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -123,5 +172,13 @@
         return YES;
     }
 }
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    if (textField == self.uiText) {
+        [textField resignFirstResponder];
+    }
+    return YES;
+}
+
 
 @end

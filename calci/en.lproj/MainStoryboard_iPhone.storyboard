@@ -24,6 +24,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="setVal:" destination="2" eventType="touchUpInside" id="x6e-ng-1qL"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="s1b-lT-af5">
                                 <rect key="frame" x="113" y="144" width="40" height="37"/>
@@ -36,6 +39,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="setVal:" destination="2" eventType="touchUpInside" id="yZH-AH-45k"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="o33-vN-16l">
                                 <rect key="frame" x="175" y="144" width="41" height="37"/>
@@ -48,6 +54,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="setVal:" destination="2" eventType="touchUpInside" id="hhH-2b-tF8"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="y6h-AC-q87">
                                 <rect key="frame" x="54" y="207" width="41" height="37"/>
@@ -60,6 +69,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="setVal:" destination="2" eventType="touchUpInside" id="Ei9-Vl-kJc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="eMF-Fr-pJ0">
                                 <rect key="frame" x="113" y="207" width="40" height="37"/>
@@ -72,6 +84,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="setVal:" destination="2" eventType="touchUpInside" id="JX0-Rs-5KS"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="sgW-c3-6uv">
                                 <rect key="frame" x="175" y="207" width="41" height="37"/>
@@ -84,6 +99,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="setVal:" destination="2" eventType="touchUpInside" id="zfS-pE-CZW"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="I2V-63-T3K">
                                 <rect key="frame" x="115" y="274" width="40" height="37"/>
@@ -111,9 +129,12 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="setVal:" destination="2" eventType="touchUpInside" id="CVc-81-iGV"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0kQ-7b-adK">
-                                <rect key="frame" x="60" y="334" width="93" height="37"/>
+                                <rect key="frame" x="54" y="334" width="162" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="0">
@@ -123,18 +144,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Chs-Ql-yJk">
-                                <rect key="frame" x="175" y="334" width="41" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title=".">
-                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
+                                <connections>
+                                    <action selector="setVal:" destination="2" eventType="touchUpInside" id="5Zg-uH-dRj"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="jUJ-p1-c2d">
                                 <rect key="frame" x="235" y="144" width="42" height="37"/>
@@ -147,6 +159,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="mul:" destination="2" eventType="touchUpInside" id="Hkj-ay-xLx"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="CS2-j2-RIk">
                                 <rect key="frame" x="235" y="201" width="42" height="37"/>
@@ -159,6 +174,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="sub:" destination="2" eventType="touchUpInside" id="8es-pR-9JX"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="yGL-H9-dSV">
                                 <rect key="frame" x="235" y="274" width="42" height="37"/>
@@ -201,6 +219,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="div:" destination="2" eventType="touchUpInside" id="o3h-Jk-89R"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="avU-e7-2hk">
                                 <rect key="frame" x="54" y="85" width="162" height="37"/>
@@ -246,10 +267,20 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="button0" destination="0kQ-7b-adK" id="EIc-0e-eNL"/>
                         <outlet property="button1" destination="Gjs-8E-2cR" id="2Ek-5h-MCV"/>
                         <outlet property="button2" destination="I2V-63-T3K" id="6op-mf-EFn"/>
+                        <outlet property="button3" destination="G48-vn-pcb" id="SEz-OI-Otq"/>
+                        <outlet property="button4" destination="y6h-AC-q87" id="uCX-0V-9nX"/>
+                        <outlet property="button5" destination="eMF-Fr-pJ0" id="da5-M4-bMN"/>
+                        <outlet property="button6" destination="sgW-c3-6uv" id="3Xh-KK-6dM"/>
+                        <outlet property="button7" destination="BXW-nK-fMv" id="D5Z-Yl-j6B"/>
+                        <outlet property="button8" destination="s1b-lT-af5" id="3iA-yT-fMg"/>
+                        <outlet property="button9" destination="o33-vN-16l" id="MX0-Jk-Evo"/>
                         <outlet property="buttonAdd" destination="yGL-H9-dSV" id="dF2-9H-iM1"/>
+                        <outlet property="buttonClear" destination="avU-e7-2hk" id="hwd-mv-PzZ"/>
                         <outlet property="buttonEql" destination="rtD-gz-VzN" id="ZZc-D0-jX8"/>
+                        <outlet property="buttonMul" destination="CS2-j2-RIk" id="hWP-8D-chW"/>
                         <outlet property="uiText" destination="BrV-Zq-6a4" id="iAD-IL-QLv"/>
                     </connections>
                 </viewController>
@@ -263,8 +294,11 @@
             <relationships>
                 <relationship kind="action" name="add:"/>
                 <relationship kind="action" name="clear:"/>
+                <relationship kind="action" name="div:"/>
                 <relationship kind="action" name="eql:"/>
+                <relationship kind="action" name="mul:"/>
                 <relationship kind="action" name="setVal:"/>
+                <relationship kind="action" name="sub:"/>
                 <relationship kind="outlet" name="button0" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="button1" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="button2" candidateClass="UIButton"/>
@@ -276,7 +310,11 @@
                 <relationship kind="outlet" name="button8" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="button9" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="buttonAdd" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="buttonClear" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="buttonDiv" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="buttonDot" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="buttonEql" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="buttonMul" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="buttonSub" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="uiText" candidateClass="UITextField"/>
             </relationships>
